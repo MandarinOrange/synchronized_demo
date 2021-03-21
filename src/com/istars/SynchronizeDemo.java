@@ -56,6 +56,7 @@ public class SynchronizeDemo extends Thread{
 //        }
 //    }
 
+
     //同步代码块（CLASS类）
     public  void accessResources4(){
         synchronized(SynchronizeDemo.class){//ClassLoader加载的class 放在堆区   Class 指所有的对象
